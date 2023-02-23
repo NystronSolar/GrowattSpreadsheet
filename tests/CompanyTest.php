@@ -1,11 +1,11 @@
 <?php
 
-use NystronSolar\GrowattSpreadsheet\Company;
+use NystronSolar\GrowattSpreadsheet\Company\Company;
 use PHPUnit\Framework\TestCase;
 
 class CompanyTest extends TestCase
 {
-    public function testGetterSetter()
+    public function testCompanyGetterSetter()
     {
         $fakeCompanyName = "Fake Company";
         $fakeCompanyCode = "FAKE1";
