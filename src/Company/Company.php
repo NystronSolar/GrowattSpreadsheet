@@ -4,13 +4,13 @@ namespace NystronSolar\GrowattSpreadsheet\Company;
 
 class Company implements CompanyInterface
 {
-    private ?string $name;
+    private ?string $name = null;
 
-    private ?string $code;
+    private ?string $code = null;
 
-    private ?int $totalComponentPower;
+    private ?int $totalComponentPower = null;
 
-    private ?float $energyTotal;
+    private ?float $energyTotal = null;
 
     public function getName(): string
     {
@@ -24,7 +24,7 @@ class Company implements CompanyInterface
         return $this;
     }
 
-    public function getCode(): string
+    public function getCode(): ?string
     {
         return $this->code;
     }
@@ -36,7 +36,7 @@ class Company implements CompanyInterface
         return $this;
     }
 
-    public function getTotalComponentPower(): int
+    public function getTotalComponentPower(): ?int
     {
         return $this->totalComponentPower;
     }
@@ -48,7 +48,7 @@ class Company implements CompanyInterface
         return $this;
     }
 
-    public function getEnergyTotal(): float
+    public function getEnergyTotal(): ?float
     {
         return $this->energyTotal;
     }
