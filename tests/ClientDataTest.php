@@ -17,7 +17,7 @@ class ClientDataTest extends TestCase
             ->setCreateDate(new DateTime())
             ->setTotalComponentPower(2500.0)
         ;
-        
+
         $fakeGenerationArray = [
             (new DayGeneration())
                 ->setDate(new DateTime('01/01/2023'))
