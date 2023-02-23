@@ -21,15 +21,13 @@ class ClientDataTest extends TestCase
         $fakeGenerationArray = [
             (new DayGeneration())
                 ->setDate(new DateTime('01/01/2023'))
-                ->setGeneration(10.0)
-            ,
+                ->setGeneration(10.0),
             (new DayGeneration())
                 ->setDate(new DateTime('02/01/2023'))
-                ->setGeneration(20.0)
-            ,
+                ->setGeneration(20.0),
             (new DayGeneration())
                 ->setDate(new DateTime('03/01/2023'))
-                ->setGeneration(30.0)
+                ->setGeneration(30.0),
         ];
 
         $clientData = (new ClientData())

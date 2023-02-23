@@ -2,8 +2,6 @@
 
 namespace NystronSolar\GrowattSpreadsheet;
 
-use DateTime;
-
 class Client
 {
     private ?string $plantName = null;
@@ -14,7 +12,7 @@ class Client
 
     private ?int $deviceCount = null;
 
-    private ?DateTime $createDate = null;
+    private ?\DateTime $createDate = null;
 
     private ?float $totalComponentPower = null;
 
@@ -66,12 +64,12 @@ class Client
         return $this;
     }
 
-    public function getCreateDate(): ?DateTime
+    public function getCreateDate(): ?\DateTime
     {
         return $this->createDate;
     }
 
-    public function setCreateDate(DateTime $createDate): self
+    public function setCreateDate(\DateTime $createDate): self
     {
         $this->createDate = $createDate;
 

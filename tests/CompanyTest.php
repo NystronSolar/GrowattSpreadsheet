@@ -7,8 +7,8 @@ class CompanyTest extends TestCase
 {
     public function testCompanyGetterSetter()
     {
-        $fakeCompanyName = "Fake Company";
-        $fakeCompanyCode = "FAKE1";
+        $fakeCompanyName = 'Fake Company';
+        $fakeCompanyCode = 'FAKE1';
         $fakeCompanyTotalComponentPower = 10000;
         $fakeCompanyEnergyTotal = 5000.0;
 

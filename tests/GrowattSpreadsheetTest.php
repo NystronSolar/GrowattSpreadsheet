@@ -10,8 +10,8 @@ class GrowattSpreadsheetTest extends TestCase
     {
         $fakeCompany = new Company();
         $fakeCompany
-            ->setName("Fake Company")
-            ->setCode("FAKE1")
+            ->setName('Fake Company')
+            ->setCode('FAKE1')
             ->setTotalComponentPower(10000)
             ->setEnergyTotal(5000.0)
         ;

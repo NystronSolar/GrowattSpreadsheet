@@ -2,9 +2,7 @@
 
 namespace NystronSolar\GrowattSpreadsheet;
 
-use JsonSerializable;
-
-class Company implements JsonSerializable
+class Company implements \JsonSerializable
 {
     private ?string $name = null;
 
@@ -65,10 +63,10 @@ class Company implements JsonSerializable
     public function jsonSerialize(): mixed
     {
         return [
-            "Name" => $this->getName(),
-            "Code" => $this->getCode(),
-            "TotalComponentPower" => $this->getTotalComponentPower(),
-            "EnergyTotal" => $this->getEnergyTotal()
+            'Name' => $this->getName(),
+            'Code' => $this->getCode(),
+            'TotalComponentPower' => $this->getTotalComponentPower(),
+            'EnergyTotal' => $this->getEnergyTotal(),
         ];
     }
 }

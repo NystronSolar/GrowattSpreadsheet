@@ -2,20 +2,18 @@
 
 namespace NystronSolar\GrowattSpreadsheet;
 
-use DateTime;
-
 class DayGeneration
 {
-    private DateTime $date;
+    private \DateTime $date;
 
     private float $generation;
 
-    public function getDate(): ?DateTime
+    public function getDate(): ?\DateTime
     {
         return $this->date;
     }
 
-    public function setDate(DateTime $date): self
+    public function setDate(\DateTime $date): self
     {
         $this->date = $date;
 

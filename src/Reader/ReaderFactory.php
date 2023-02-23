@@ -20,7 +20,7 @@ class ReaderFactory
     {
         $sheet = $spreadsheet->getActiveSheet();
         $reader = static::fromSheet($sheet);
-        
+
         return $reader;
     }
 
