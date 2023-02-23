@@ -1,6 +1,6 @@
 <?php
 
-use NystronSolar\GrowattSpreadsheet\DayGeneration\DayGeneration;
+use NystronSolar\GrowattSpreadsheet\DayGeneration;
 use PHPUnit\Framework\TestCase;
 
 class DayGenerationTest extends TestCase
