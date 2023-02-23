@@ -2,7 +2,7 @@
 
 namespace NystronSolar\GrowattSpreadsheet;
 
-class DayGeneration
+class GenerationDay
 {
     private \DateTime $date;
 
