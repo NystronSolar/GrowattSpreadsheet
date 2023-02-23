@@ -1,8 +1,8 @@
 <?php
 
-use NystronSolar\GrowattSpreadsheet\Client\Client;
-use NystronSolar\GrowattSpreadsheet\ClientData\ClientData;
-use NystronSolar\GrowattSpreadsheet\DayGeneration\DayGeneration;
+use NystronSolar\GrowattSpreadsheet\Client;
+use NystronSolar\GrowattSpreadsheet\ClientData;
+use NystronSolar\GrowattSpreadsheet\DayGeneration;
 use PHPUnit\Framework\TestCase;
 
 class ClientDataTest extends TestCase

@@ -2,18 +2,16 @@
 
 namespace NystronSolar\GrowattSpreadsheet;
 
-use NystronSolar\GrowattSpreadsheet\Company\CompanyInterface;
-
 class GrowattSpreadsheet
 {
-    private ?CompanyInterface $company = null;
+    private ?Company $company = null;
 
-    public function getCompany(): ?CompanyInterface
+    public function getCompany(): ?Company
     {
         return $this->company;
     }
 
-    public function setCompany(CompanyInterface $company): self
+    public function setCompany(Company $company): self
     {
         $this->company = $company;
 

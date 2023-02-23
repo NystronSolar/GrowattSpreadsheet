@@ -1,6 +1,6 @@
 <?php
 
-use NystronSolar\GrowattSpreadsheet\Client\Client;
+use NystronSolar\GrowattSpreadsheet\Client;
 use PHPUnit\Framework\TestCase;
 
 class ClientTest extends TestCase
