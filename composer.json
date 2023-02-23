@@ -1,0 +1,31 @@
+{
+    "name": "nystron-solar/growatt-spreadsheet",
+    "description": "Read, Write and Manage Growatt Device Data Spreadsheets",
+    "license": "GPL-3.0-only",
+    "homepage": "https://github.com/NystronSolar/GrowattSpreadsheet",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "type": "library",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "TheDevick",
+            "email": "erick@bilhalba.com.br",
+            "homepage": "https://TheDevick.vercel.app"
+        }
+    ]
+}
