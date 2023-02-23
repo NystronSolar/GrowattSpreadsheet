@@ -1,5 +1,5 @@
 {
-    "name": "nystron-solar/growatt-spreadsheet",
+    "name": "nystronsolar/growattspreadsheet",
     "description": "Read, Write and Manage Growatt Device Data Spreadsheets",
     "license": "GPL-3.0-only",
     "homepage": "https://github.com/NystronSolar/GrowattSpreadsheet",
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "NystronSolar\\GrowattSpreadsheet\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "App\\Tests\\": "tests/"
+            "Tests\\": "tests/"
         }
     },
     "authors": [
