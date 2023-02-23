@@ -16,6 +16,10 @@ class Client
 
     private ?float $totalComponentPower = null;
 
+    private ?float $energyTotal = null;
+
+    private ?float $hoursTotal = null;
+
     public function getPlantName(): ?string
     {
         return $this->plantName;
@@ -84,6 +88,30 @@ class Client
     public function setTotalComponentPower(float $totalComponentPower): self
     {
         $this->totalComponentPower = $totalComponentPower;
+
+        return $this;
+    }
+
+    public function getEnergyTotal(): ?float
+    {
+        return $this->energyTotal;
+    }
+
+    public function setEnergyTotal(float $energyTotal): self
+    {
+        $this->energyTotal = $energyTotal;
+
+        return $this;
+    }
+
+    public function getHoursTotal(): ?float
+    {
+        return $this->hoursTotal;
+    }
+
+    public function setHoursTotal(float $hoursTotal): self
+    {
+        $this->hoursTotal = $hoursTotal;
 
         return $this;
     }
