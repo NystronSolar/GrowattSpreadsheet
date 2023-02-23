@@ -1,6 +1,6 @@
 <?php
 
-use NystronSolar\GrowattSpreadsheet\Company;
+use NystronSolar\GrowattSpreadsheet\Company\Company;
 use NystronSolar\GrowattSpreadsheet\GrowattSpreadsheet;
 use PHPUnit\Framework\TestCase;
 
