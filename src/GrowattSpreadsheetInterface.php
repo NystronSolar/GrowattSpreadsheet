@@ -6,7 +6,7 @@ use NystronSolar\GrowattSpreadsheet\Company\CompanyInterface;
 
 interface GrowattSpreadsheetInterface
 {
-    public function getCompany(): CompanyInterface;
+    public function getCompany(): ?CompanyInterface;
 
     public function setCompany(CompanyInterface $company): self;
 }
