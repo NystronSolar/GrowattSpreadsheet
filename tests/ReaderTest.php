@@ -1,33 +1,19 @@
 <?php
 
-use NystronSolar\GrowattSpreadsheet\Company\Company;
+use NystronSolar\GrowattSpreadsheet\Company;
 use NystronSolar\GrowattSpreadsheet\GrowattSpreadsheet;
-use NystronSolar\GrowattSpreadsheet\Reader\Reader;
-use PhpOffice\PhpSpreadsheet\IOFactory;
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
-use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
+use NystronSolar\GrowattSpreadsheet\Reader\ReaderFactory;
 use PHPUnit\Framework\TestCase;
 
 class ReaderTest extends TestCase
 {
-    private Worksheet $fakeSheet;
+    protected ?GrowattSpreadsheet $expectedGrowattSpreadsheet = null;
 
-    private Spreadsheet $fakeSpreadsheet;
+    protected ?GrowattSpreadsheet $actualGrowattSpreadsheet = null;
 
-    private string $fakeSpreadsheetFile = 'tests/content/Fake.xlsx';
+    protected ?string $fakeSpreadsheetFile = 'tests/content/Fake.xlsx';
 
-    private string $fakeJsonFile = 'tests/content/Fake.json';
-
-    private GrowattSpreadsheet $fakeGrowattSpreadsheet;
-
-    protected function setUp(): void
-    {
-        parent::setUp();
-
-        $this->fakeSpreadsheet = IOFactory::load($this->fakeSpreadsheetFile);
-        $this->fakeSheet = $this->fakeSpreadsheet->getActiveSheet();
-        $this->fakeGrowattSpreadsheet = $this->jsonAsGrowattSpreadsheet();
-    }
+    protected ?string $fakeJsonFile = 'tests/content/Fake.json';
 
     protected function jsonAsGrowattSpreadsheet(string $fakeJsonFile = null): GrowattSpreadsheet
     {
@@ -50,10 +36,20 @@ class ReaderTest extends TestCase
         return $growattSpreadsheet;
     }
 
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        $reader = ReaderFactory::fromFile($this->fakeSpreadsheetFile);
+
+        $this->expectedGrowattSpreadsheet = $this->expectedGrowattSpreadsheet ?? $this->jsonAsGrowattSpreadsheet();
+        $this->actualGrowattSpreadsheet = $this->actualGrowattSpreadsheet ?? $reader->search();
+    }
+
     public function testSearchCompany()
     {
-        $expectedCompany = $this->fakeGrowattSpreadsheet->getCompany();
-        $actualCompany = Reader::searchCompany($this->fakeSheet);
+        $expectedCompany = $this->expectedGrowattSpreadsheet->getCompany();
+        $actualCompany = $this->actualGrowattSpreadsheet->getCompany();
 
         $this->assertEquals($expectedCompany, $actualCompany);
     }
