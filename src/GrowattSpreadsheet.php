@@ -4,7 +4,7 @@ namespace NystronSolar\GrowattSpreadsheet;
 
 use NystronSolar\GrowattSpreadsheet\Company\CompanyInterface;
 
-class GrowattSpreadsheet implements GrowattSpreadsheetInterface
+class GrowattSpreadsheet
 {
     private ?CompanyInterface $company = null;
 

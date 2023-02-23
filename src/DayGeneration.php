@@ -1,10 +1,10 @@
 <?php
 
-namespace NystronSolar\GrowattSpreadsheet\DayGeneration;
+namespace NystronSolar\GrowattSpreadsheet;
 
 use DateTime;
 
-class DayGeneration implements DayGenerationInterface
+class DayGeneration
 {
     private DateTime $date;
 

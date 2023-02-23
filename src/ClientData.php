@@ -1,31 +1,29 @@
 <?php
 
-namespace NystronSolar\GrowattSpreadsheet\ClientData;
+namespace NystronSolar\GrowattSpreadsheet;
 
 use DateTime;
-use NystronSolar\GrowattSpreadsheet\Client\ClientInterface;
-use NystronSolar\GrowattSpreadsheet\DayGeneration\DayGenerationInterface;
 
 class ClientData
 {
-    private ?ClientInterface $client = null;
+    private ?Client $client = null;
 
-    /** @var DayGenerationInterface[]|null */
+    /** @var DayGeneration[]|null */
     private ?array $generationArray = null;
 
-    public function getClient(): ?ClientInterface
+    public function getClient(): ?Client
     {
         return $this->client;
     }
 
-    public function setClient(ClientInterface $client): self
+    public function setClient(Client $client): self
     {
         $this->client = $client;
 
         return $this;
     }
 
-    /** @return DayGenerationInterface[]|null */
+    /** @return DayGeneration[]|null */
     public function getGenerationArray(): ?array
     {
         return $this->generationArray;
@@ -38,7 +36,7 @@ class ClientData
         return $this;
     }
 
-    public function addGenerationDay(DayGenerationInterface $dayGeneration): self
+    public function addGenerationDay(DayGeneration $dayGeneration): self
     {
         $generationArray = $this->getGenerationArray();
         $generationArray[] = $dayGeneration;

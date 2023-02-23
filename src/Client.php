@@ -1,11 +1,10 @@
 <?php
 
-namespace NystronSolar\GrowattSpreadsheet\Client;
+namespace NystronSolar\GrowattSpreadsheet;
 
 use DateTime;
-use NystronSolar\GrowattSpreadsheet\Client\ClientInterface;
 
-class Client implements ClientInterface
+class Client
 {
     private ?string $plantName = null;
 

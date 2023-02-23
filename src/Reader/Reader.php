@@ -11,7 +11,7 @@ use PhpOffice\PhpSpreadsheet\Reader\BaseReader;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
 
-class Reader implements ReaderInterface
+class Reader
 {
     public static function fromFile(string $filename, BaseReader $spreadsheetReader = null): GrowattSpreadsheetInterface
     {

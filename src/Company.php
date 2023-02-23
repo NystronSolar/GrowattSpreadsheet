@@ -1,8 +1,10 @@
 <?php
 
-namespace NystronSolar\GrowattSpreadsheet\Company;
+namespace NystronSolar\GrowattSpreadsheet;
 
-class Company implements CompanyInterface
+use JsonSerializable;
+
+class Company implements JsonSerializable
 {
     private ?string $name = null;
 
