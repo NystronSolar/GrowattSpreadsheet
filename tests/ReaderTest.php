@@ -38,7 +38,7 @@ class ReaderTest extends TestCase
             $createDate = DateTime::createFromFormat(GrowattSpreadsheet::DATE_TIME_FORMAT, $jsonClient['CreateDate']);
 
             $clientGenerationDays = [];
-            $jsonClientGenerationDays = $jsonClient['Generation'];
+            $jsonClientGenerationDays = $jsonClient['GenerationDays'];
 
             foreach ($jsonClientGenerationDays as $jsonClientGenerationDay) {
                 $clientGenerationDay = (new GenerationDay())
@@ -58,7 +58,7 @@ class ReaderTest extends TestCase
                 ->setTotalComponentPower($jsonClient['TotalComponentPower'])
                 ->setEnergyTotal($jsonClient['EnergyTotal'])
                 ->setHoursTotal($jsonClient['HoursTotal'])
-                ->setGenerationDays($jsonClientGenerationDays)
+                ->setGenerationDays($clientGenerationDays)
             ;
 
             $clients[] = $client;
@@ -90,11 +90,20 @@ class ReaderTest extends TestCase
         $this->assertEquals($expectedCompany, $actualCompany);
     }
 
-    public function testSearchClients()
+    public function testSearchClientData()
     {
-        $expectedCompany = $this->expectedGrowattSpreadsheet->getClients();
-        $actualCompany = $this->actualGrowattSpreadsheet->getClients();
+        $fn = function ($client) {
+            $client->getPlantName();
+            $client->getUserAccountName();
+            $client->getCity();
+            $client->getDeviceCount();
+            $client->getCreateDate();
+            $client->getTotalComponentPower();
+        };
 
-        $this->assertEquals($expectedCompany, $actualCompany);
+        $expectedClientsData = array_map($fn, $this->expectedGrowattSpreadsheet->getClients());
+        $actualClientsData = array_map($fn, $this->actualGrowattSpreadsheet->getClients());
+
+        $this->assertEquals($expectedClientsData, $actualClientsData);
     }
 }
