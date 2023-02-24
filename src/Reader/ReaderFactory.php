@@ -10,7 +10,11 @@ class ReaderFactory
 {
     public static function fromFile(string $filename): Reader
     {
-        $spreadsheet = IOFactory::load($filename);
+        $spreadsheetReader = IOFactory::createReaderForFile($filename);
+        $spreadsheetReader->setReadDataOnly(true);
+        $spreadsheetReader->setReadEmptyCells(false);
+
+        $spreadsheet = $spreadsheetReader->load($filename);
         $reader = static::fromSpreadsheet($spreadsheet);
 
         return $reader;
