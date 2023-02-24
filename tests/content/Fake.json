@@ -4,5 +4,169 @@
         "Code": "ABCD1",
         "TotalComponentPower": 19940,
         "EnergyTotal": 3258.0
-    }
+    },
+    "Clients": [
+        {
+            "PlantName": "TimHouse",
+            "UserAccountName": "Tim",
+            "City": "Washington",
+            "DeviceCount": 1,
+            "CreateDate": "2021-06-10",
+            "TotalComponentPower": 6440,
+            "EnergyTotal": 939.8,
+            "HoursTotal": 145.9,
+            "Generation": [
+                {
+                    "Date": "2022-11-01",
+                    "Generation": 34.6,
+                    "Hours": 5.4
+                },
+                {
+                    "Date": "2022-11-02",
+                    "Generation": 34.6,
+                    "Hours": 5.4
+                },
+                {
+                    "Date": "2022-11-03",
+                    "Generation": 34.6,
+                    "Hours": 5.4
+                },
+                {
+                    "Date": "2022-11-04",
+                    "Generation": 34.6,
+                    "Hours": 5.4
+                },
+                {
+                    "Date": "2022-11-05",
+                    "Generation": 34.6,
+                    "Hours": 5.4
+                },
+                {
+                    "Date": "2022-11-06",
+                    "Generation": 34.6,
+                    "Hours": 5.4
+                },
+                {
+                    "Date": "2022-11-07",
+                    "Generation": 35.7,
+                    "Hours": 5.5
+                },
+                {
+                    "Date": "2022-11-08",
+                    "Generation": 34.4,
+                    "Hours": 5.3
+                },
+                {
+                    "Date": "2022-11-09",
+                    "Generation": 35.9,
+                    "Hours": 5.6
+                },
+                {
+                    "Date": "2022-11-10",
+                    "Generation": 25.1,
+                    "Hours": 3.9
+                },
+                {
+                    "Date": "2022-11-11",
+                    "Generation": 33.2,
+                    "Hours": 5.2
+                },
+                {
+                    "Date": "2022-11-12",
+                    "Generation": 15,
+                    "Hours": 2.3
+                },
+                {
+                    "Date": "2022-11-13",
+                    "Generation": 11.3,
+                    "Hours": 1.8
+                },
+                {
+                    "Date": "2022-11-14",
+                    "Generation": 20.9,
+                    "Hours": 3.2
+                },
+                {
+                    "Date": "2022-11-15",
+                    "Generation": 36.1,
+                    "Hours": 5.6
+                },
+                {
+                    "Date": "2022-11-16",
+                    "Generation": 34.9,
+                    "Hours": 5.4
+                },
+                {
+                    "Date": "2022-11-17",
+                    "Generation": 35.9,
+                    "Hours": 5.6
+                },
+                {
+                    "Date": "2022-11-18",
+                    "Generation": 35.9,
+                    "Hours": 5.6
+                },
+                {
+                    "Date": "2022-11-19",
+                    "Generation": 35,
+                    "Hours": 5.4
+                },
+                {
+                    "Date": "2022-11-20",
+                    "Generation": 23.4,
+                    "Hours": 3.6
+                },
+                {
+                    "Date": "2022-11-21",
+                    "Generation": 7.3,
+                    "Hours": 1.1
+                },
+                {
+                    "Date": "2022-11-22",
+                    "Generation": 32.7,
+                    "Hours": 5.1
+                },
+                {
+                    "Date": "2022-11-23",
+                    "Generation": 36.7,
+                    "Hours": 5.7
+                },
+                {
+                    "Date": "2022-11-24",
+                    "Generation": 35.2,
+                    "Hours": 5.5
+                },
+                {
+                    "Date": "2022-11-25",
+                    "Generation": 35,
+                    "Hours": 5.4
+                },
+                {
+                    "Date": "2022-11-26",
+                    "Generation": 36.3,
+                    "Hours": 5.6
+                },
+                {
+                    "Date": "2022-11-27",
+                    "Generation": 35.7,
+                    "Hours": 5.5
+                },
+                {
+                    "Date": "2022-11-28",
+                    "Generation": 35.7,
+                    "Hours": 5.5
+                },
+                {
+                    "Date": "2022-11-29",
+                    "Generation": 33,
+                    "Hours": 5.1
+                },
+                {
+                    "Date": "2022-11-30",
+                    "Generation": 31.9,
+                    "Hours": 5
+                }
+            ]
+        }
+    ]
 }

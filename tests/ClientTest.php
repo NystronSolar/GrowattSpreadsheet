@@ -12,7 +12,7 @@ class ClientTest extends TestCase
         $fakeCity = 'City';
         $fakeDeviceCount = 1;
         $fakeCreateDate = new DateTime();
-        $fakeTotalComponentPower = 2500.0;
+        $fakeTotalComponentPower = 2500;
 
         $fakeClient = (new Client())
             ->setPlantName($fakePlantName)

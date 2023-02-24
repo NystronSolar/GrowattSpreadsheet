@@ -14,11 +14,14 @@ class Client
 
     private ?\DateTime $createDate = null;
 
-    private ?float $totalComponentPower = null;
+    private ?int $totalComponentPower = null;
 
     private ?float $energyTotal = null;
 
     private ?float $hoursTotal = null;
+
+    /** @var GenerationDay[]|null */
+    private ?array $generationDays = null;
 
     public function getPlantName(): ?string
     {
@@ -80,12 +83,12 @@ class Client
         return $this;
     }
 
-    public function getTotalComponentPower(): ?float
+    public function getTotalComponentPower(): ?int
     {
         return $this->totalComponentPower;
     }
 
-    public function setTotalComponentPower(float $totalComponentPower): self
+    public function setTotalComponentPower(int $totalComponentPower): self
     {
         $this->totalComponentPower = $totalComponentPower;
 
@@ -112,6 +115,20 @@ class Client
     public function setHoursTotal(float $hoursTotal): self
     {
         $this->hoursTotal = $hoursTotal;
+
+        return $this;
+    }
+
+    /** @return GenerationDay[]|null */
+    public function getGenerationDays(): ?array
+    {
+        return $this->generationDays;
+    }
+
+    /** @param GenerationDay[] $generationDays */
+    public function setGenerationDays(array $generationDays): self
+    {
+        $this->generationDays = $generationDays;
 
         return $this;
     }

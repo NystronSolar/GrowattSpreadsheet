@@ -4,9 +4,11 @@ namespace NystronSolar\GrowattSpreadsheet;
 
 class GenerationDay
 {
-    private \DateTime $date;
+    private ?\DateTime $date = null;
 
-    private float $generation;
+    private ?float $generation = null;
+
+    private ?float $hours = null;
 
     public function getDate(): ?\DateTime
     {
@@ -28,6 +30,18 @@ class GenerationDay
     public function setGeneration(float $generation): self
     {
         $this->generation = $generation;
+
+        return $this;
+    }
+
+    public function getHours(): ?float
+    {
+        return $this->hours;
+    }
+
+    public function setHours(float $hours): self
+    {
+        $this->hours = $hours;
 
         return $this;
     }
