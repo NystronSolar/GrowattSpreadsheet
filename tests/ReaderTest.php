@@ -43,6 +43,7 @@ class ReaderTest extends TestCase
             foreach ($jsonClientGenerationDays as $jsonClientGenerationDay) {
                 $clientGenerationDay = (new GenerationDay())
                     ->setDate(DateTime::createFromFormat(GrowattSpreadsheet::DATE_TIME_FORMAT, $jsonClientGenerationDay['Date']))
+                    ->setHours($jsonClientGenerationDay['Hours'])
                     ->setGeneration($jsonClientGenerationDay['Generation'])
                 ;
 
@@ -90,20 +91,30 @@ class ReaderTest extends TestCase
         $this->assertEquals($expectedCompany, $actualCompany);
     }
 
-    public function testSearchClientData()
+    public function testSearchClientData(): void
     {
-        $fn = function ($client) {
+        $fn = function (Client $client) {
             $client->getPlantName();
             $client->getUserAccountName();
             $client->getCity();
             $client->getDeviceCount();
             $client->getCreateDate();
             $client->getTotalComponentPower();
+            $client->getEnergyTotal();
+            $client->getHoursTotal();
         };
 
         $expectedClientsData = array_map($fn, $this->expectedGrowattSpreadsheet->getClients());
         $actualClientsData = array_map($fn, $this->actualGrowattSpreadsheet->getClients());
 
         $this->assertEquals($expectedClientsData, $actualClientsData);
+    }
+
+    public function testSearchClientGenerationFirstDay(): void
+    {
+        $expectedClientGeneration = $this->expectedGrowattSpreadsheet->getClients()[0]->getGenerationDays();
+        $actualClientGeneration = $this->actualGrowattSpreadsheet->getClients()[0]->getGenerationDays();
+
+        $this->assertEquals($expectedClientGeneration, $actualClientGeneration);
     }
 }

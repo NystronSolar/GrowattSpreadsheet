@@ -88,7 +88,8 @@ class Reader
             $generationColumn = Coordinate::stringFromColumnIndex($i + 6);
             $hoursColumn = Coordinate::stringFromColumnIndex($i + 6 + $totalDays + 1);
 
-            $date = \DateTime::createFromFormat(GrowattSpreadsheet::DATE_TIME_FORMAT, $sheet->getCell("E$row")->getValue());
+            $dateRow = 2;
+            $date = \DateTime::createFromFormat(GrowattSpreadsheet::DATE_TIME_FORMAT, $sheet->getCell($generationColumn . $dateRow)->getValue());
 
             $generationDay = (new GenerationDay())
                 ->setGeneration($sheet->getCell($generationColumn.$row)->getValue())
