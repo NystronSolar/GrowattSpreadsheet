@@ -3,7 +3,7 @@
         "Name": "NystronSolar",
         "Code": "ABCD1",
         "TotalComponentPower": 19940,
-        "EnergyTotal": 3258.0
+        "EnergyTotal": 3258
     },
     "Clients": [
         {
@@ -11,160 +11,808 @@
             "UserAccountName": "Tim",
             "City": "Washington",
             "DeviceCount": 1,
-            "CreateDate": "2021-06-10",
+            "CreateDate": "2023-01-01",
             "TotalComponentPower": 6440,
             "EnergyTotal": 939.8,
             "HoursTotal": 145.9,
-            "Generation": [
+            "GenerationDays": [
                 {
-                    "Date": "2022-11-01",
                     "Generation": 34.6,
-                    "Hours": 5.4
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-02",
                     "Generation": 34.6,
-                    "Hours": 5.4
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-03",
                     "Generation": 34.6,
-                    "Hours": 5.4
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-04",
                     "Generation": 34.6,
-                    "Hours": 5.4
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-05",
                     "Generation": 34.6,
-                    "Hours": 5.4
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-06",
                     "Generation": 34.6,
-                    "Hours": 5.4
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-07",
                     "Generation": 35.7,
-                    "Hours": 5.5
+                    "Hours": 5.5,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-08",
                     "Generation": 34.4,
-                    "Hours": 5.3
+                    "Hours": 5.3,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-09",
                     "Generation": 35.9,
-                    "Hours": 5.6
+                    "Hours": 5.6,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-10",
                     "Generation": 25.1,
-                    "Hours": 3.9
+                    "Hours": 3.9,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-11",
                     "Generation": 33.2,
-                    "Hours": 5.2
+                    "Hours": 5.2,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-12",
                     "Generation": 15,
-                    "Hours": 2.3
+                    "Hours": 2.3,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-13",
                     "Generation": 11.3,
-                    "Hours": 1.8
+                    "Hours": 1.8,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-14",
                     "Generation": 20.9,
-                    "Hours": 3.2
+                    "Hours": 3.2,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-15",
                     "Generation": 36.1,
-                    "Hours": 5.6
+                    "Hours": 5.6,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-16",
                     "Generation": 34.9,
-                    "Hours": 5.4
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-17",
                     "Generation": 35.9,
-                    "Hours": 5.6
+                    "Hours": 5.6,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-18",
                     "Generation": 35.9,
-                    "Hours": 5.6
+                    "Hours": 5.6,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-19",
                     "Generation": 35,
-                    "Hours": 5.4
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-20",
                     "Generation": 23.4,
-                    "Hours": 3.6
+                    "Hours": 3.6,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-21",
                     "Generation": 7.3,
-                    "Hours": 1.1
+                    "Hours": 1.1,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-22",
                     "Generation": 32.7,
-                    "Hours": 5.1
+                    "Hours": 5.1,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-23",
                     "Generation": 36.7,
-                    "Hours": 5.7
+                    "Hours": 5.7,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-24",
                     "Generation": 35.2,
-                    "Hours": 5.5
+                    "Hours": 5.5,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-25",
                     "Generation": 35,
-                    "Hours": 5.4
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-26",
                     "Generation": 36.3,
-                    "Hours": 5.6
+                    "Hours": 5.6,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-27",
                     "Generation": 35.7,
-                    "Hours": 5.5
+                    "Hours": 5.5,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-28",
                     "Generation": 35.7,
-                    "Hours": 5.5
+                    "Hours": 5.5,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-29",
                     "Generation": 33,
-                    "Hours": 5.1
+                    "Hours": 5.1,
+                    "Date": "2023-01-01"
                 },
                 {
-                    "Date": "2022-11-30",
                     "Generation": 31.9,
-                    "Hours": 5
+                    "Hours": 5,
+                    "Date": "2023-01-01"
+                }
+            ]
+        },
+        {
+            "PlantName": "NoahHouse",
+            "UserAccountName": "Noah",
+            "City": "Washington",
+            "DeviceCount": 1,
+            "CreateDate": "2023-01-01",
+            "TotalComponentPower": 4950,
+            "EnergyTotal": 844.7,
+            "HoursTotal": 170.6,
+            "GenerationDays": [
+                {
+                    "Generation": 25.9,
+                    "Hours": 5.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 32.2,
+                    "Hours": 6.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 32.4,
+                    "Hours": 6.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 33,
+                    "Hours": 6.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 33.3,
+                    "Hours": 6.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 32.9,
+                    "Hours": 6.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 32.4,
+                    "Hours": 6.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 29.9,
+                    "Hours": 6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 32.3,
+                    "Hours": 6.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 23,
+                    "Hours": 4.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 29.8,
+                    "Hours": 6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 14.7,
+                    "Hours": 3,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 10.3,
+                    "Hours": 2.1,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 18.3,
+                    "Hours": 3.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 32.1,
+                    "Hours": 6.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 31,
+                    "Hours": 6.3,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 31.9,
+                    "Hours": 6.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 31.4,
+                    "Hours": 6.3,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 30.8,
+                    "Hours": 6.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 21.8,
+                    "Hours": 4.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 6.9,
+                    "Hours": 1.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 25.9,
+                    "Hours": 5.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 32.4,
+                    "Hours": 6.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 31.5,
+                    "Hours": 6.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 31.7,
+                    "Hours": 6.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 33.1,
+                    "Hours": 6.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 32.4,
+                    "Hours": 6.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 32.8,
+                    "Hours": 6.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 29.9,
+                    "Hours": 6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 28.7,
+                    "Hours": 5.8,
+                    "Date": "2023-01-01"
+                }
+            ]
+        },
+        {
+            "PlantName": "MiaHouse",
+            "UserAccountName": "Mia",
+            "City": "Washington",
+            "DeviceCount": 1,
+            "CreateDate": "2023-01-01",
+            "TotalComponentPower": 1800,
+            "EnergyTotal": 310.3,
+            "HoursTotal": 172.4,
+            "GenerationDays": [
+                {
+                    "Generation": 9.7,
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.9,
+                    "Hours": 6.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.9,
+                    "Hours": 6.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 12,
+                    "Hours": 6.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 12,
+                    "Hours": 6.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.9,
+                    "Hours": 6.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.7,
+                    "Hours": 6.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 10.7,
+                    "Hours": 5.9,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.7,
+                    "Hours": 6.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 8.3,
+                    "Hours": 4.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 10.9,
+                    "Hours": 6.1,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 5,
+                    "Hours": 2.8,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 4,
+                    "Hours": 2.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 6.8,
+                    "Hours": 3.8,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 12.1,
+                    "Hours": 6.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.6,
+                    "Hours": 6.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.8,
+                    "Hours": 6.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.7,
+                    "Hours": 6.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.4,
+                    "Hours": 6.3,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 7.9,
+                    "Hours": 4.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 2.6,
+                    "Hours": 1.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 9.8,
+                    "Hours": 5.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 12.2,
+                    "Hours": 6.8,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.6,
+                    "Hours": 6.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.6,
+                    "Hours": 6.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 12.1,
+                    "Hours": 6.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.6,
+                    "Hours": 6.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.9,
+                    "Hours": 6.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.2,
+                    "Hours": 6.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 10.7,
+                    "Hours": 5.9,
+                    "Date": "2023-01-01"
+                }
+            ]
+        },
+        {
+            "PlantName": "MaryHouse",
+            "UserAccountName": "Mary",
+            "City": "Washington",
+            "DeviceCount": 1,
+            "CreateDate": "2023-01-01",
+            "TotalComponentPower": 4500,
+            "EnergyTotal": 731.8,
+            "HoursTotal": 162.6,
+            "GenerationDays": [
+                {
+                    "Generation": 23.3,
+                    "Hours": 5.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27.8,
+                    "Hours": 6.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27.7,
+                    "Hours": 6.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 28.2,
+                    "Hours": 6.3,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 28.2,
+                    "Hours": 6.3,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 28,
+                    "Hours": 6.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27.6,
+                    "Hours": 6.1,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27,
+                    "Hours": 6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27.6,
+                    "Hours": 6.1,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 21.2,
+                    "Hours": 4.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 25.6,
+                    "Hours": 5.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 14.9,
+                    "Hours": 3.3,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 8.8,
+                    "Hours": 2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.2,
+                    "Hours": 3.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27.7,
+                    "Hours": 6.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 26.7,
+                    "Hours": 5.9,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27.1,
+                    "Hours": 6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27.6,
+                    "Hours": 6.1,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 26.8,
+                    "Hours": 6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 20.2,
+                    "Hours": 4.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 5.9,
+                    "Hours": 1.3,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 22.6,
+                    "Hours": 5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 28,
+                    "Hours": 6.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 26.9,
+                    "Hours": 6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 26.7,
+                    "Hours": 5.9,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27.7,
+                    "Hours": 6.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27.3,
+                    "Hours": 6.1,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 27.5,
+                    "Hours": 6.1,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 25.7,
+                    "Hours": 5.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 25.3,
+                    "Hours": 5.6,
+                    "Date": "2023-01-01"
+                }
+            ]
+        },
+        {
+            "PlantName": "StevenHouse",
+            "UserAccountName": "Steven",
+            "City": "Washington",
+            "DeviceCount": 1,
+            "CreateDate": "2023-01-01",
+            "TotalComponentPower": 2250,
+            "EnergyTotal": 432.1,
+            "HoursTotal": 192,
+            "GenerationDays": [
+                {
+                    "Generation": 13.9,
+                    "Hours": 6.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 17,
+                    "Hours": 7.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.9,
+                    "Hours": 7.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 17.1,
+                    "Hours": 7.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 17,
+                    "Hours": 7.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.8,
+                    "Hours": 7.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.6,
+                    "Hours": 7.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 15.7,
+                    "Hours": 7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.4,
+                    "Hours": 7.3,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11.6,
+                    "Hours": 5.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 15.4,
+                    "Hours": 6.8,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 7.3,
+                    "Hours": 3.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 5.1,
+                    "Hours": 2.3,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 9.4,
+                    "Hours": 4.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.7,
+                    "Hours": 7.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.1,
+                    "Hours": 7.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.3,
+                    "Hours": 7.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.3,
+                    "Hours": 7.2,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 15.7,
+                    "Hours": 7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 11,
+                    "Hours": 4.9,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 3.5,
+                    "Hours": 1.6,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 14.3,
+                    "Hours": 6.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.8,
+                    "Hours": 7.5,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16,
+                    "Hours": 7.1,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16,
+                    "Hours": 7.1,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16.6,
+                    "Hours": 7.4,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 15.8,
+                    "Hours": 7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 16,
+                    "Hours": 7.1,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 15.1,
+                    "Hours": 6.7,
+                    "Date": "2023-01-01"
+                },
+                {
+                    "Generation": 13.7,
+                    "Hours": 6.1,
+                    "Date": "2023-01-01"
                 }
             ]
         }
