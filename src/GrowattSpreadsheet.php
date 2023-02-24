@@ -2,7 +2,7 @@
 
 namespace NystronSolar\GrowattSpreadsheet;
 
-class GrowattSpreadsheet
+class GrowattSpreadsheet implements \JsonSerializable
 {
     public const DATE_TIME_FORMAT = 'Y-m-d';
 
@@ -35,5 +35,18 @@ class GrowattSpreadsheet
         $this->clients = $clients;
 
         return $this;
+    }
+
+    public function toArray(): array
+    {
+        return [
+            'Company' => $this->getCompany(),
+            'Clients' => $this->getClients(),
+        ];
+    }
+
+    public function jsonSerialize(): array
+    {
+        return $this->toArray();
     }
 }

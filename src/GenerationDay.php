@@ -2,7 +2,7 @@
 
 namespace NystronSolar\GrowattSpreadsheet;
 
-class GenerationDay
+class GenerationDay implements \JsonSerializable
 {
     private ?\DateTime $date = null;
 
@@ -44,5 +44,19 @@ class GenerationDay
         $this->hours = $hours;
 
         return $this;
+    }
+
+    public function toArray(): array
+    {
+        return [
+            'Generation' => $this->getGeneration(),
+            'Hours' => $this->getHours(),
+            'Date' => $this->getDate(),
+        ];
+    }
+
+    public function jsonSerialize(): array
+    {
+        return $this->toArray();
     }
 }

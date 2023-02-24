@@ -60,7 +60,7 @@ class Company implements \JsonSerializable
         return $this;
     }
 
-    public function jsonSerialize(): mixed
+    public function toArray(): array
     {
         return [
             'Name' => $this->getName(),
@@ -68,5 +68,10 @@ class Company implements \JsonSerializable
             'TotalComponentPower' => $this->getTotalComponentPower(),
             'EnergyTotal' => $this->getEnergyTotal(),
         ];
+    }
+
+    public function jsonSerialize(): array
+    {
+        return $this->toArray();
     }
 }

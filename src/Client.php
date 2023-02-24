@@ -2,7 +2,7 @@
 
 namespace NystronSolar\GrowattSpreadsheet;
 
-class Client
+class Client implements \JsonSerializable
 {
     private ?string $plantName = null;
 
@@ -131,5 +131,25 @@ class Client
         $this->generationDays = $generationDays;
 
         return $this;
+    }
+
+    public function toArray(): array
+    {
+        return [
+            'PlantName' => $this->getPlantName(),
+            'UserAccountName' => $this->getUserAccountName(),
+            'City' => $this->getCity(),
+            'DeviceCount' => $this->getDeviceCount(),
+            'CreateDate' => $this->getCreateDate(),
+            'TotalComponentPower' => $this->getTotalComponentPower(),
+            'EnergyTotal' => $this->getEnergyTotal(),
+            'HoursTotal' => $this->getHoursTotal(),
+            'GenerationDays' => $this->getGenerationDays(),
+        ];
+    }
+
+    public function jsonSerialize(): array
+    {
+        return $this->toArray();
     }
 }
