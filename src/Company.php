@@ -17,7 +17,7 @@ class Company implements \JsonSerializable
         return $this->name;
     }
 
-    public function setName(string $name): self
+    public function setName(?string $name): self
     {
         $this->name = $name;
 
@@ -29,7 +29,7 @@ class Company implements \JsonSerializable
         return $this->code;
     }
 
-    public function setCode(string $code): self
+    public function setCode(?string $code): self
     {
         $this->code = $code;
 
@@ -41,7 +41,7 @@ class Company implements \JsonSerializable
         return $this->totalComponentPower;
     }
 
-    public function setTotalComponentPower(int $totalComponentPower): self
+    public function setTotalComponentPower(?int $totalComponentPower): self
     {
         $this->totalComponentPower = $totalComponentPower;
 
@@ -53,7 +53,7 @@ class Company implements \JsonSerializable
         return $this->energyTotal;
     }
 
-    public function setEnergyTotal(float $energyTotal): self
+    public function setEnergyTotal(?float $energyTotal): self
     {
         $this->energyTotal = $energyTotal;
 

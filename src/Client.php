@@ -28,7 +28,7 @@ class Client implements \JsonSerializable
         return $this->plantName;
     }
 
-    public function setPlantName(string $plantName): self
+    public function setPlantName(?string $plantName): self
     {
         $this->plantName = $plantName;
 
@@ -40,7 +40,7 @@ class Client implements \JsonSerializable
         return $this->userAccountName;
     }
 
-    public function setUserAccountName(string $userAccountName): self
+    public function setUserAccountName(?string $userAccountName): self
     {
         $this->userAccountName = $userAccountName;
 
@@ -52,7 +52,7 @@ class Client implements \JsonSerializable
         return $this->city;
     }
 
-    public function setCity(string $city): self
+    public function setCity(?string $city): self
     {
         $this->city = $city;
 
@@ -64,7 +64,7 @@ class Client implements \JsonSerializable
         return $this->deviceCount;
     }
 
-    public function setDeviceCount(int $deviceCount): self
+    public function setDeviceCount(?int $deviceCount): self
     {
         $this->deviceCount = $deviceCount;
 
@@ -76,7 +76,7 @@ class Client implements \JsonSerializable
         return $this->createDate;
     }
 
-    public function setCreateDate(\DateTime $createDate): self
+    public function setCreateDate(?\DateTime $createDate): self
     {
         $this->createDate = $createDate;
 
@@ -88,7 +88,7 @@ class Client implements \JsonSerializable
         return $this->totalComponentPower;
     }
 
-    public function setTotalComponentPower(int $totalComponentPower): self
+    public function setTotalComponentPower(?int $totalComponentPower): self
     {
         $this->totalComponentPower = $totalComponentPower;
 
@@ -100,7 +100,7 @@ class Client implements \JsonSerializable
         return $this->energyTotal;
     }
 
-    public function setEnergyTotal(float $energyTotal): self
+    public function setEnergyTotal(?float $energyTotal): self
     {
         $this->energyTotal = $energyTotal;
 
@@ -112,7 +112,7 @@ class Client implements \JsonSerializable
         return $this->hoursTotal;
     }
 
-    public function setHoursTotal(float $hoursTotal): self
+    public function setHoursTotal(?float $hoursTotal): self
     {
         $this->hoursTotal = $hoursTotal;
 
@@ -126,7 +126,7 @@ class Client implements \JsonSerializable
     }
 
     /** @param GenerationDay[] $generationDays */
-    public function setGenerationDays(array $generationDays): self
+    public function setGenerationDays(?array $generationDays): self
     {
         $this->generationDays = $generationDays;
 
